@@ -1,0 +1,28 @@
+# Mac
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+notebooks/
+
+# Data
+data/
+
+# Models/checkpoints
+*.pt
+*.pth
+checkpoints/
+
+# Notebooks outputs
+*.png
+!assets/*.png
+
+# Virtual env
+venv/
+.env/
